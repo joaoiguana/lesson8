@@ -16,3 +16,10 @@ print("The last book of Lord of the rings is", lort["name"], ", published on", l
 del lort["genre"]
 
 print(lort)
+
+movies = {'blade runner', 'poor things', 'the godfather', 'apocalypse now', 'snatch'}
+movies.add('fear and loathing in las vegas')
+
+watchlist = {'poor things', 'anatomy of a fall', 'dune', 'oppenheimer', 'snatch'}
+
+print(movies & watchlist)
